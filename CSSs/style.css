@@ -5,7 +5,8 @@
 }
 @font-face {
     font-family: 'Bebas Neue';
-    src: url("/desafio10-2/fontes/BebasNeue-Regular.ttf") format('truetype')
+    src: url("/desafio10-2/fontes/BebasNeue-Regular.ttf") format('truetype');
+    font-weight: normal;
 }    
   
 :root {
@@ -65,6 +66,7 @@ nav{
 nav a{
     color: var(--cor1);
     padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
